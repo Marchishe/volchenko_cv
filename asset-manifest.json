@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/volchenko_cv/static/css/main.f855e6bc.css",
+    "main.js": "/volchenko_cv/static/js/main.b5953c63.js",
+    "index.html": "/volchenko_cv/index.html",
+    "main.f855e6bc.css.map": "/volchenko_cv/static/css/main.f855e6bc.css.map",
+    "main.b5953c63.js.map": "/volchenko_cv/static/js/main.b5953c63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.b5953c63.js"
+  ]
+}
