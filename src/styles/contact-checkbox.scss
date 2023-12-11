@@ -1,0 +1,61 @@
+.checkbox {
+  display: flex;
+  gap: 1rem;
+
+  &-input {
+    display: none;
+
+    &:checked + .checkbox-label:after {
+      transform: scale(1);
+    }
+  }
+
+  &-label {
+    display: flex;
+    position: relative;
+    width: 100%;
+    font-family: 'Candara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    white-space: nowrap;
+    color: $white;
+
+    &:before {
+      content: '';
+      align-self: flex-start;
+      margin-right: 1rem;
+      flex: 0 0 2.4rem;
+      height: 2.4rem;
+      background-color: $white;
+      border-radius: .4rem;
+    }
+
+    &:after {
+      content: '';
+      transition: transform .5s ease 0s;
+      width: 1.6rem;
+      height: 1.6rem;
+      position: absolute;
+      top: .4rem;
+      left: .4rem;
+      background-color: $sky-blue;
+      border-radius: .4rem;
+      transform: scale(0);
+    }
+  }
+  &-text{
+    font-family: "Candara", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #ffffff;
+  }
+}

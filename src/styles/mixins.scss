@@ -1,0 +1,83 @@
+@import 'colors.scss';
+
+@mixin headerName {
+  font-family: 'Agbalumo', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.01em;
+}
+
+@mixin nav-item {
+  font-family: 'Candara', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.01em;
+  transition: .3s;
+  text-decoration: none;
+}
+
+@mixin main-btn {
+  background: linear-gradient(to right, $sky-blue-light, $blue);
+  min-width: 12rem;
+  padding: .2rem 1rem;
+  border-radius: .8rem;
+  font-family: 'Candara', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.01em;
+  transition: .3s;
+  color: $black;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  border: none;
+
+  &:before {
+    content: '';
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background: linear-gradient(to left, transparent 0%, $white 40%, $white 60%, transparent 100%);
+    transform: translate(-100%, -25%) rotate(10deg);
+    animation: blick 6s infinite;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &.btn-disabled {
+    background: gray;
+  }
+}
+
+@mixin skill-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 40rem;
+}
+
+@mixin skill-subtitle {
+  font-family: 'Candara', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: $sky-blue;
+}

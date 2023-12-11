@@ -1,0 +1,59 @@
+@import './colors';
+
+//styles for react-select
+.main-container {
+  .react-select {
+    &__control {
+      border: .3rem solid $sky-blue;
+      border-radius: 1rem;
+
+      &:hover {
+        border-color: $sky-blue;
+      }
+    }
+
+    &__placeholder {
+      font-family: 'Candara', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 3.3rem;
+      letter-spacing: 0.01em;
+      color: $black;
+    }
+
+    &__single-value {
+      font-family: 'Candara', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.7rem;
+      line-height: 3.3rem;
+      letter-spacing: 0.01em;
+      color: $black;
+    }
+
+    &__option {
+      font-family: 'Candara', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 2.3rem;
+      letter-spacing: 0.01em;
+      cursor: pointer;
+      color: $black;
+
+      &--is-selected {
+        color: $white;
+        background-color: $sky-blue;
+      }
+    }
+
+    &__indicator {
+      display: none;
+    }
+
+    &__indicators {
+      display: none;
+    }
+  }
+}

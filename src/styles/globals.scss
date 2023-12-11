@@ -1,0 +1,559 @@
+@import './colors.scss';
+@import './mixins.scss';
+@import './select';
+@import './contact-checkbox';
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 171rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin-bottom: 13rem;
+}
+
+.page-title {
+  font-family: 'Candara', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: $white;
+
+  &--gray {
+    color: $dark-grey;
+  }
+
+  &--blue {
+    color: $sky-blue;
+  }
+}
+
+.page-subtitle {
+  font-family: 'Candara', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.page-description {
+  font-family: 'Candara', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.01em;
+  color: $white;
+
+  &--centered {
+    font-family: "Candara", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: $white;
+  }
+  &--nowrap {
+    font-family: "Candara", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    color: $white;
+  }
+
+  &--sm {
+    font-family: "Candara", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: $white;
+  }
+}
+
+.photo-box {
+  max-width: 40rem;
+  max-height: 40rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: .5rem solid $sky-blue;
+}
+
+.main-btn {
+  @include main-btn;
+  transition: .3s;
+
+  &:before {
+    content: '';
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background: linear-gradient(to left, transparent 0%, $white 40%, $white 60%, transparent 100%);
+    transform: translate(-100%, -25%) rotate(10deg);
+    animation: blick 6s infinite;
+  }
+
+  &:hover {
+
+    transform: scale(1.1);
+  }
+
+  &.btn-disabled {
+    background: gray;
+  }
+}
+
+.skill-description {
+  @include skill-description;
+}
+
+.services-item{
+  width: 50%;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-label{
+  display: block;
+  font-family: "Candara", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.01em;
+  color: $white;
+
+  & input, textarea {
+    height: 4rem;
+    padding: 0 2rem;
+    border: .3rem solid $sky-blue;
+    border-radius: 1rem;
+    width: 100%;
+    font-family: 'Candara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.01em;
+    color: $black;
+
+    &:focus-visible {
+      outline: none;
+      border: .3rem solid $sky-blue;
+    }
+  }
+}
+
+.clip-icon{
+  width: 100%;
+}
+
+.wrap {
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  height: 100%;
+
+  &--dark {
+    background: linear-gradient(90deg, $dark-blue, $black);
+
+    & .header {
+      &-name {
+        @include headerName;
+        color: $white;
+      }
+    }
+
+    & .nav {
+      &-item {
+        @include nav-item;
+        color: $white;
+
+        &:hover {
+          color: $sky-blue;
+        }
+      }
+    }
+
+    & .active {
+      color: $sky-blue;
+    }
+
+
+
+    & .main-btn {
+      @include main-btn;
+    }
+
+    & .social-black {
+      display: none;
+    }
+
+    & .skill-description {
+      &--black {
+        display: none;
+      }
+    }
+
+    & .skill-subtitle {
+      @include skill-subtitle;
+    }
+
+    & .services-item{
+      &--black{
+        display: none;
+      }
+    }
+
+    & .clip-icon{
+      &--black{
+        display: none;
+      }
+    }
+
+  }
+
+
+  &--light {
+    background: linear-gradient(90deg, $sky-blue-light, $blue);
+
+    .header {
+      &-name {
+        @include headerName;
+        color: $black;
+      }
+    }
+
+    & .nav {
+      &-item {
+        @include nav-item;
+        color: $black;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+
+    .active {
+      color: $white;
+    }
+
+    & .page-title {
+      color: $black;
+
+      &--gray {
+        color: $blue;
+      }
+
+      &--blue {
+        color: $grey;
+      }
+    }
+
+    & .page-subtitle {
+      color: $black;
+    }
+
+    & .page-description {
+      color: $black;
+    }
+
+    & .main-btn {
+      @include main-btn;
+      background: linear-gradient(to right, $blue, $black);
+      color: $light-grey;
+    }
+
+    & .photo-box {
+      border: .5rem solid $black;
+    }
+
+    & .social-black {
+      display: flex;
+    }
+
+    & .social-light {
+      display: none;
+    }
+
+    & .skill-description {
+      &--light {
+        display: none;
+      }
+    }
+
+    & .page-description {
+      &--centered {
+        color: $black;
+      }
+
+      &--nowrap{
+        color: $black;
+      }
+
+      &--sm {
+        color: $black;
+      }
+    }
+
+    & .skill-subtitle {
+      @include skill-subtitle;
+      color: $grey;
+    }
+
+    & .services-item{
+      &--light{
+        display: none;
+      }
+    }
+
+    & .contact-label{
+      color: $black;
+
+      & input, textarea {
+        border: .3rem solid $black;
+      }
+
+      &:focus-visible {
+        outline: none;
+        border: .3rem solid $black;
+      }
+    }
+
+    & .react-select{
+      &__control{
+        border: .3rem solid $black;
+
+        &:hover {
+          border-color: $black;
+        }
+      }
+    }
+
+    & .clip-icon{
+      &--light{
+        display: none;
+      }
+    }
+
+    .checkbox {
+      &-label{
+        &:after{
+          background-color: $black;
+        }
+      }
+      &-text {
+        color: $black;
+      }
+    }
+  }
+}
+
+
+
+
+@keyframes blick {
+  0% {
+    transform: translate(-100%, -25%) rotate(10deg);
+  }
+  20% {
+    transform: translate(100%, -25%) rotate(10deg);
+  }
+  100% {
+    transform: translate(100%, -25%) rotate(10deg);
+  }
+}
+
+
+
+//Theme-changer
+
+.toggle {
+  position: relative;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+
+  &-container{
+    display: flex;
+    padding: 1rem 0;
+    & > span {
+      display: flex;
+      font-size: 1.2em;
+      background: none;
+      border: none;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      margin-top: 4px;
+      margin-right: 2px;
+      &:last-child {
+        margin-top: 5px;
+      }
+
+    }
+  }
+
+  &-icon-box {
+    max-width: 2rem;
+  }
+}
+
+input[type="checkbox"].checkbox {
+  width: 40px;
+  height: 10px;
+  background: #555;
+  position: relative;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  vertical-align: 2px;
+  outline: none;
+}
+
+input[type="checkbox"].checkbox:checked + label {
+  left: 30px;
+}
+
+input[type="checkbox"].checkbox:focus-visible {
+  outline: solid 2px white;
+}
+
+input[type="checkbox"].checkbox + label {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: absolute;
+  left: 2px;
+  opacity: 0.9;
+  background-color: $sky-blue-light;
+  border: .1rem solid $black;
+}
+
+//Media
+
+@media screen and (max-width: 1200px) {
+  .nav-container{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+  .page-title{
+    font-size: 4rem;
+  }
+  .page-subtitle{
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page-title {
+    font-size: 3rem;
+  }
+
+  .page-subtitle {
+    font-size: 2.5rem;
+  }
+
+  .page-description {
+    &--nowrap {
+      text-align: center;
+      white-space: inherit;
+      font-size: 1.7rem;
+    }
+  }
+
+  .photo-box {
+    max-width: 30rem;
+    max-height: 30rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav{
+    &-container{
+      padding-top: 1rem;
+      margin-bottom: 0;
+    }
+  }
+  .main-btn{
+    width: 100%;
+  }
+  .checkbox{
+    &-text{
+      white-space: initial;
+    }
+    &-label{
+      &:before{
+        align-self: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .photo-box{
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+}
+@media screen and (max-width: 370px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+  .page-subtitle {
+    font-size: 2rem;
+  }
+  .page-description{
+    font-size: 2rem;
+    &--nowrap{
+      font-size: 1.5rem;
+    }
+  }
+}
+
