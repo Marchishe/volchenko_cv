@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/volchenko_cv/static/css/main.f855e6bc.css",
-    "main.js": "/volchenko_cv/static/js/main.b5953c63.js",
+    "main.css": "/volchenko_cv/static/css/main.4a9d93a5.css",
+    "main.js": "/volchenko_cv/static/js/main.fac52e13.js",
     "index.html": "/volchenko_cv/index.html",
-    "main.f855e6bc.css.map": "/volchenko_cv/static/css/main.f855e6bc.css.map",
-    "main.b5953c63.js.map": "/volchenko_cv/static/js/main.b5953c63.js.map"
+    "main.4a9d93a5.css.map": "/volchenko_cv/static/css/main.4a9d93a5.css.map",
+    "main.fac52e13.js.map": "/volchenko_cv/static/js/main.fac52e13.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.b5953c63.js"
+    "static/css/main.4a9d93a5.css",
+    "static/js/main.fac52e13.js"
   ]
 }
