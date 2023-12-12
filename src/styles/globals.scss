@@ -173,8 +173,9 @@ button {
 
 .wrap {
   position: absolute;
-  width: 100%;
   height: 100%;
+  width: 100%;
+  overflow: scroll;
 
   &--dark {
     background: linear-gradient(90deg, $dark-blue, $black);
@@ -530,9 +531,6 @@ input[type="checkbox"].checkbox + label {
   }
 }
 @media screen and (max-width: 375px) {
-  .wrap{
-    height: initial;
-  }
   .page-title {
     font-size: 2.5rem;
   }
