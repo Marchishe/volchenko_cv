@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/volchenko_cv/static/css/main.4a9d93a5.css",
-    "main.js": "/volchenko_cv/static/js/main.fac52e13.js",
+    "main.css": "/volchenko_cv/static/css/main.e5944823.css",
+    "main.js": "/volchenko_cv/static/js/main.cfa49b5a.js",
+    "static/media/sun-icon.svg": "/volchenko_cv/static/media/sun-icon.5ebc13b0a318866043f68da11cd83653.svg",
+    "static/media/moon-icon.svg": "/volchenko_cv/static/media/moon-icon.c410233389a1e4104d3b40fa2d89c648.svg",
     "index.html": "/volchenko_cv/index.html",
-    "main.4a9d93a5.css.map": "/volchenko_cv/static/css/main.4a9d93a5.css.map",
-    "main.fac52e13.js.map": "/volchenko_cv/static/js/main.fac52e13.js.map"
+    "main.e5944823.css.map": "/volchenko_cv/static/css/main.e5944823.css.map",
+    "main.cfa49b5a.js.map": "/volchenko_cv/static/js/main.cfa49b5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a9d93a5.css",
-    "static/js/main.fac52e13.js"
+    "static/css/main.e5944823.css",
+    "static/js/main.cfa49b5a.js"
   ]
 }
