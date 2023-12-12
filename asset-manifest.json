@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/volchenko_cv/static/css/main.9b2b6089.css",
+    "main.css": "/volchenko_cv/static/css/main.cc18cc1e.css",
     "main.js": "/volchenko_cv/static/js/main.8b12342b.js",
     "static/media/myPhoto.png": "/volchenko_cv/static/media/myPhoto.8288e040eec2c2eccb1d.png",
     "static/media/rocket-icon.svg": "/volchenko_cv/static/media/rocket-icon.5ae1ceffd6b5114af23afbe5e8f56e1f.svg",
@@ -22,11 +22,11 @@
     "static/media/personality-icon-black.svg": "/volchenko_cv/static/media/personality-icon-black.869daa92d29a9f3f6b7640780dea4a39.svg",
     "static/media/moon-icon.svg": "/volchenko_cv/static/media/moon-icon.c410233389a1e4104d3b40fa2d89c648.svg",
     "index.html": "/volchenko_cv/index.html",
-    "main.9b2b6089.css.map": "/volchenko_cv/static/css/main.9b2b6089.css.map",
+    "main.cc18cc1e.css.map": "/volchenko_cv/static/css/main.cc18cc1e.css.map",
     "main.8b12342b.js.map": "/volchenko_cv/static/js/main.8b12342b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b2b6089.css",
+    "static/css/main.cc18cc1e.css",
     "static/js/main.8b12342b.js"
   ]
 }
