@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/volchenko_cv/static/css/main.d9c612b8.css",
-    "main.js": "/volchenko_cv/static/js/main.4de9fcb0.js",
+    "main.css": "/volchenko_cv/static/css/main.9b2b6089.css",
+    "main.js": "/volchenko_cv/static/js/main.8b12342b.js",
     "static/media/myPhoto.png": "/volchenko_cv/static/media/myPhoto.8288e040eec2c2eccb1d.png",
+    "static/media/rocket-icon.svg": "/volchenko_cv/static/media/rocket-icon.5ae1ceffd6b5114af23afbe5e8f56e1f.svg",
+    "static/media/rocket-icon-black.svg": "/volchenko_cv/static/media/rocket-icon-black.4452c9cf261eab9349e9d9d043e29b4d.svg",
     "static/media/code-icon-black.svg": "/volchenko_cv/static/media/code-icon-black.42bd79c65d7dc4dedc353320ad4adb0f.svg",
     "static/media/code-icon.svg": "/volchenko_cv/static/media/code-icon.bf8fd46b0b0547e0f6a5b844a8e9ab63.svg",
+    "static/media/clip-icon.svg": "/volchenko_cv/static/media/clip-icon.b2b07e344bdd4b05a0a0395e9a6a2e0d.svg",
+    "static/media/clip-icon-black.svg": "/volchenko_cv/static/media/clip-icon-black.a526e233e6ada58e9ea739d1524675b7.svg",
     "static/media/github-light.svg": "/volchenko_cv/static/media/github-light.ce375b72cd156601568b19422a2c6af4.svg",
     "static/media/github-black.svg": "/volchenko_cv/static/media/github-black.c7340547c8b830f706d4e473358950a4.svg",
     "static/media/linkedin-black.svg": "/volchenko_cv/static/media/linkedin-black.08cf7e604931b88d9faf92321221a021.svg",
     "static/media/linkedin-light.svg": "/volchenko_cv/static/media/linkedin-light.d5959a44d17bd97aa3e0fb82bc8346ab.svg",
+    "static/media/bulb-icon.svg": "/volchenko_cv/static/media/bulb-icon.5678e1bd1b4cf67496c93c187b33fd95.svg",
+    "static/media/bulb-icon-black.svg": "/volchenko_cv/static/media/bulb-icon-black.924c57861254566791453711a2567277.svg",
+    "static/media/mobile-code-icon.svg": "/volchenko_cv/static/media/mobile-code-icon.85da5957c30eac826e196af2cff783dd.svg",
+    "static/media/mobile-code-icon-black.svg": "/volchenko_cv/static/media/mobile-code-icon-black.0653e0f4c4c5a01330277644a4777a79.svg",
     "static/media/sun-icon.svg": "/volchenko_cv/static/media/sun-icon.5ebc13b0a318866043f68da11cd83653.svg",
     "static/media/personality-icon.svg": "/volchenko_cv/static/media/personality-icon.499789e72725662c3cc7538a61dbcae0.svg",
     "static/media/personality-icon-black.svg": "/volchenko_cv/static/media/personality-icon-black.869daa92d29a9f3f6b7640780dea4a39.svg",
     "static/media/moon-icon.svg": "/volchenko_cv/static/media/moon-icon.c410233389a1e4104d3b40fa2d89c648.svg",
     "index.html": "/volchenko_cv/index.html",
-    "main.d9c612b8.css.map": "/volchenko_cv/static/css/main.d9c612b8.css.map",
-    "main.4de9fcb0.js.map": "/volchenko_cv/static/js/main.4de9fcb0.js.map"
+    "main.9b2b6089.css.map": "/volchenko_cv/static/css/main.9b2b6089.css.map",
+    "main.8b12342b.js.map": "/volchenko_cv/static/js/main.8b12342b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9c612b8.css",
-    "static/js/main.4de9fcb0.js"
+    "static/css/main.9b2b6089.css",
+    "static/js/main.8b12342b.js"
   ]
 }
