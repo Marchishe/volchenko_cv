@@ -42,3 +42,11 @@
   color: $white;
 }
 
+@media screen and (max-width: 768px){
+  .services_list{
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+

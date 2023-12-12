@@ -76,5 +76,13 @@
     margin-bottom: 0;
     color: $sky-blue;
   }
-  
+}
+
+@media screen and (max-width: 768px){
+  .skills{
+    &_box{
+      gap: 1rem;
+      flex-direction: column;
+    }
+  }
 }

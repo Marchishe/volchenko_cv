@@ -175,7 +175,22 @@ button {
   position: absolute;
   height: 100%;
   width: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    height: .3rem;
+    width: .2rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: .1rem solid transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10rem;
+    background-color: $sky-blue;
+  }
 
   &--dark {
     background: linear-gradient(90deg, $dark-blue, $black);
@@ -509,9 +524,23 @@ input[type="checkbox"].checkbox + label {
       margin-bottom: 0;
     }
   }
+
+  .page-title{
+    text-align: center;
+  }
+
+  .page-subtitle{
+    text-align: center;
+  }
+
+  .page-description{
+    text-align: center;
+  }
+
   .main-btn{
     width: 100%;
   }
+
   .checkbox{
     &-text{
       white-space: initial;
@@ -522,6 +551,11 @@ input[type="checkbox"].checkbox + label {
       }
     }
   }
+
+  .services-item{
+    gap: 0;
+  }
+
 }
 
 @media screen and (max-width: 576px) {
