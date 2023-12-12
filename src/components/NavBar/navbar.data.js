@@ -3,7 +3,7 @@ export const items =
         {
             id: 1,
             name: 'About',
-            link: '/'
+            link: '/about'
         },
         {
             id: 2,
