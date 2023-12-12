@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch, Redirect} from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
@@ -53,10 +53,11 @@ function App() {
                           </div>
                           <NavBar/>
                       </div>
-                      <Routes>
-                          <Route path='/about' element={<About/>}/>
-                          <Route path='/skills' element={<Skills/>}/>
-                      </Routes>
+                      <Switch>
+                          <Route path='/about'><About/></Route>
+                          <Route path='/skills'><Skills/></Route>
+                          <Redirect to="/about"/>
+                      </Switch>
                   </Router>
               </div>
           </div>
