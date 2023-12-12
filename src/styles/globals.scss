@@ -21,8 +21,7 @@ button {
   width: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 1.5rem;
 }
 
 .nav-container{
@@ -170,6 +169,8 @@ button {
   width: 100%;
 }
 
+//Styles for change-theme
+
 .wrap {
   position: absolute;
   max-width: 100%;
@@ -235,9 +236,6 @@ button {
     }
 
   }
-
-
-  //Styles for change-theme
 
   &--light {
     background: linear-gradient(90deg, $sky-blue-light, $blue);
@@ -528,6 +526,10 @@ input[type="checkbox"].checkbox + label {
 }
 
 @media screen and (max-width: 576px) {
+  .wrap{
+    max-height: initial;
+    height: initial;
+  }
   .photo-box{
     max-width: 20rem;
     max-height: 20rem;
