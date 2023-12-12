@@ -1,7 +1,10 @@
 import React from "react";
-import './App.css';
 import {BrowserRouter as Router} from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
+import SunIcon from '../../images/sun-icon.svg';
+import MoonIcon from '../../images/moon-icon.svg';
+
+
 
 
 function App() {
@@ -37,12 +40,12 @@ function App() {
                   <Router>
                       <div className='nav-container'>
                           <div className="toggle-container">
-                              <span className='toggle-icon-box' style={{opacity: darkMode ? "1" : "0"}}><img src="public/images/sun-icon.svg" alt="sun-icon"/>︎</span>
+                              <span className='toggle-icon-box' style={{opacity: darkMode ? "1" : "0"}}><img src={SunIcon} alt="sun-icon"/>︎</span>
                               <span className="toggle">
                                     <input checked={darkMode} onChange={() => setDarkMode(prevMode => !prevMode)} id="checkbox" className="checkbox" type="checkbox"/>
                                     <label htmlFor="checkbox"/>
                                 </span>
-                              <span className='toggle-icon-box' style={{opacity: darkMode ? "0" : "1"}}><img src="public/images/moon-icon.svg" alt="moon-icon"/></span>
+                              <span className='toggle-icon-box' style={{opacity: darkMode ? "0" : "1"}}><img src={MoonIcon} alt="moon-icon"/></span>
                           </div>
                           <NavBar/>
                       </div>
