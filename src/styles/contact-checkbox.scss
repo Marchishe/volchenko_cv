@@ -59,3 +59,11 @@
     color: #ffffff;
   }
 }
+
+@media screen and (max-width: 768px){
+  .checkbox-label{
+    &:after{
+      top: 1.5rem;
+    }
+  }
+}

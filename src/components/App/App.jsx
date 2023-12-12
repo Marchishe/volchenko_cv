@@ -1,10 +1,15 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Switch, Redirect} from "react-router-dom";
+import SunIcon from '../../images/sun-icon.svg';
+import MoonIcon from '../../images/moon-icon.svg';
 import NavBar from "../NavBar/NavBar";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
-import SunIcon from '../../images/sun-icon.svg';
-import MoonIcon from '../../images/moon-icon.svg';
+import Services from "../Services/Services";
+import Contact from "../Contact/Contact";
+import Portfolio from "../Portfolio/Portfolio";
+
+
 
 
 
@@ -56,6 +61,9 @@ function App() {
                       <Switch>
                           <Route path='/about'><About/></Route>
                           <Route path='/skills'><Skills/></Route>
+                          <Route path='/services'><Services/></Route>
+                          <Route path='/contact'><Contact/></Route>
+                          <Route path='/portfolio'><Portfolio/></Route>
                           <Redirect to="/about"/>
                       </Switch>
                   </Router>

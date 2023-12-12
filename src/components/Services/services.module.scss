@@ -1,0 +1,44 @@
+@import '../../styles/colors';
+@import '../../styles/mixins';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services_list {
+  display: flex;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.icon_box {
+  max-width: 5rem;
+}
+
+.icon {
+  width: 100%;
+}
+
+.title {
+  font-family: 'Candara', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.01em;
+  color: $white;
+}
+
+.subtitle {
+  font-family: 'Candara', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.01em;
+  color: $white;
+}
+

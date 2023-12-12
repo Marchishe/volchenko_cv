@@ -149,7 +149,7 @@ button {
     padding: 0 2rem;
     border: .3rem solid $sky-blue;
     border-radius: 1rem;
-    width: 100%;
+    width: -webkit-fill-available;
     font-family: 'Candara', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -526,16 +526,16 @@ input[type="checkbox"].checkbox + label {
 }
 
 @media screen and (max-width: 576px) {
-  .wrap{
-    max-height: initial;
-    height: initial;
-  }
   .photo-box{
     max-width: 20rem;
     max-height: 20rem;
   }
 }
 @media screen and (max-width: 370px) {
+  .wrap{
+    max-height: initial;
+    height: initial;
+  }
   .page-title {
     font-size: 2.5rem;
   }
