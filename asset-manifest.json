@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/about/static/css/main.d9c612b8.css",
-    "main.js": "/about/static/js/main.0733dc33.js",
-    "static/media/myPhoto.png": "/about/static/media/myPhoto.8288e040eec2c2eccb1d.png",
-    "static/media/code-icon-black.svg": "/about/static/media/code-icon-black.42bd79c65d7dc4dedc353320ad4adb0f.svg",
-    "static/media/code-icon.svg": "/about/static/media/code-icon.bf8fd46b0b0547e0f6a5b844a8e9ab63.svg",
-    "static/media/github-light.svg": "/about/static/media/github-light.ce375b72cd156601568b19422a2c6af4.svg",
-    "static/media/github-black.svg": "/about/static/media/github-black.c7340547c8b830f706d4e473358950a4.svg",
-    "static/media/linkedin-black.svg": "/about/static/media/linkedin-black.08cf7e604931b88d9faf92321221a021.svg",
-    "static/media/linkedin-light.svg": "/about/static/media/linkedin-light.d5959a44d17bd97aa3e0fb82bc8346ab.svg",
-    "static/media/sun-icon.svg": "/about/static/media/sun-icon.5ebc13b0a318866043f68da11cd83653.svg",
-    "static/media/personality-icon.svg": "/about/static/media/personality-icon.499789e72725662c3cc7538a61dbcae0.svg",
-    "static/media/personality-icon-black.svg": "/about/static/media/personality-icon-black.869daa92d29a9f3f6b7640780dea4a39.svg",
-    "static/media/moon-icon.svg": "/about/static/media/moon-icon.c410233389a1e4104d3b40fa2d89c648.svg",
-    "index.html": "/about/index.html",
-    "main.d9c612b8.css.map": "/about/static/css/main.d9c612b8.css.map",
-    "main.0733dc33.js.map": "/about/static/js/main.0733dc33.js.map"
+    "main.css": "/volchenko_cv/static/css/main.d9c612b8.css",
+    "main.js": "/volchenko_cv/static/js/main.4de9fcb0.js",
+    "static/media/myPhoto.png": "/volchenko_cv/static/media/myPhoto.8288e040eec2c2eccb1d.png",
+    "static/media/code-icon-black.svg": "/volchenko_cv/static/media/code-icon-black.42bd79c65d7dc4dedc353320ad4adb0f.svg",
+    "static/media/code-icon.svg": "/volchenko_cv/static/media/code-icon.bf8fd46b0b0547e0f6a5b844a8e9ab63.svg",
+    "static/media/github-light.svg": "/volchenko_cv/static/media/github-light.ce375b72cd156601568b19422a2c6af4.svg",
+    "static/media/github-black.svg": "/volchenko_cv/static/media/github-black.c7340547c8b830f706d4e473358950a4.svg",
+    "static/media/linkedin-black.svg": "/volchenko_cv/static/media/linkedin-black.08cf7e604931b88d9faf92321221a021.svg",
+    "static/media/linkedin-light.svg": "/volchenko_cv/static/media/linkedin-light.d5959a44d17bd97aa3e0fb82bc8346ab.svg",
+    "static/media/sun-icon.svg": "/volchenko_cv/static/media/sun-icon.5ebc13b0a318866043f68da11cd83653.svg",
+    "static/media/personality-icon.svg": "/volchenko_cv/static/media/personality-icon.499789e72725662c3cc7538a61dbcae0.svg",
+    "static/media/personality-icon-black.svg": "/volchenko_cv/static/media/personality-icon-black.869daa92d29a9f3f6b7640780dea4a39.svg",
+    "static/media/moon-icon.svg": "/volchenko_cv/static/media/moon-icon.c410233389a1e4104d3b40fa2d89c648.svg",
+    "index.html": "/volchenko_cv/index.html",
+    "main.d9c612b8.css.map": "/volchenko_cv/static/css/main.d9c612b8.css.map",
+    "main.4de9fcb0.js.map": "/volchenko_cv/static/js/main.4de9fcb0.js.map"
   },
   "entrypoints": [
     "static/css/main.d9c612b8.css",
-    "static/js/main.0733dc33.js"
+    "static/js/main.4de9fcb0.js"
   ]
 }
