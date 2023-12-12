@@ -131,13 +131,17 @@ button {
   }
 
   &:hover {
-
     transform: scale(1.1);
   }
 
   &.btn-disabled {
     background: gray;
   }
+
+  & a {
+    color: $black;
+  }
+
 }
 
 .skill-description {
@@ -254,6 +258,8 @@ button {
   }
 
 
+  //Styles for change-theme
+
   &--light {
     background: linear-gradient(90deg, $sky-blue-light, $blue);
 
@@ -300,9 +306,12 @@ button {
     }
 
     & .main-btn {
-      @include main-btn;
       background: linear-gradient(to right, $blue, $black);
-      color: $light-grey;
+
+      & a {
+        color: $light-grey;
+      }
+
     }
 
     & .photo-box {

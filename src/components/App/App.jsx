@@ -1,8 +1,10 @@
 import React from "react";
-import {BrowserRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
+import About from "../About/About";
 import SunIcon from '../../images/sun-icon.svg';
 import MoonIcon from '../../images/moon-icon.svg';
+
 
 
 
@@ -49,6 +51,9 @@ function App() {
                           </div>
                           <NavBar/>
                       </div>
+                      <Routes>
+                          <Route path='/' element={<About/>}/>
+                      </Routes>
                   </Router>
               </div>
           </div>
