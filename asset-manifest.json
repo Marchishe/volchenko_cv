@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/volchenko_cv/static/css/main.e5944823.css",
-    "main.js": "/volchenko_cv/static/js/main.cfa49b5a.js",
+    "main.css": "/volchenko_cv/static/css/main.b62340f9.css",
+    "main.js": "/volchenko_cv/static/js/main.14b4e573.js",
+    "static/media/myPhoto.png": "/volchenko_cv/static/media/myPhoto.8288e040eec2c2eccb1d.png",
+    "static/media/github-light.svg": "/volchenko_cv/static/media/github-light.ce375b72cd156601568b19422a2c6af4.svg",
+    "static/media/github-black.svg": "/volchenko_cv/static/media/github-black.c7340547c8b830f706d4e473358950a4.svg",
+    "static/media/linkedin-black.svg": "/volchenko_cv/static/media/linkedin-black.08cf7e604931b88d9faf92321221a021.svg",
+    "static/media/linkedin-light.svg": "/volchenko_cv/static/media/linkedin-light.d5959a44d17bd97aa3e0fb82bc8346ab.svg",
     "static/media/sun-icon.svg": "/volchenko_cv/static/media/sun-icon.5ebc13b0a318866043f68da11cd83653.svg",
     "static/media/moon-icon.svg": "/volchenko_cv/static/media/moon-icon.c410233389a1e4104d3b40fa2d89c648.svg",
     "index.html": "/volchenko_cv/index.html",
-    "main.e5944823.css.map": "/volchenko_cv/static/css/main.e5944823.css.map",
-    "main.cfa49b5a.js.map": "/volchenko_cv/static/js/main.cfa49b5a.js.map"
+    "main.b62340f9.css.map": "/volchenko_cv/static/css/main.b62340f9.css.map",
+    "main.14b4e573.js.map": "/volchenko_cv/static/js/main.14b4e573.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5944823.css",
-    "static/js/main.cfa49b5a.js"
+    "static/css/main.b62340f9.css",
+    "static/js/main.14b4e573.js"
   ]
 }
