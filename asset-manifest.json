@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/volchenko_cv/static/css/main.e2d0f5d7.css",
-    "main.js": "/volchenko_cv/static/js/main.8b12342b.js",
+    "main.css": "/volchenko_cv/static/css/main.ec5b745d.css",
+    "main.js": "/volchenko_cv/static/js/main.eb458995.js",
     "static/media/myPhoto.png": "/volchenko_cv/static/media/myPhoto.8288e040eec2c2eccb1d.png",
+    "static/media/todo-list-img.png": "/volchenko_cv/static/media/todo-list-img.f6830271f2f666818f4a.png",
     "static/media/rocket-icon.svg": "/volchenko_cv/static/media/rocket-icon.5ae1ceffd6b5114af23afbe5e8f56e1f.svg",
     "static/media/rocket-icon-black.svg": "/volchenko_cv/static/media/rocket-icon-black.4452c9cf261eab9349e9d9d043e29b4d.svg",
     "static/media/code-icon-black.svg": "/volchenko_cv/static/media/code-icon-black.42bd79c65d7dc4dedc353320ad4adb0f.svg",
@@ -22,11 +23,11 @@
     "static/media/personality-icon-black.svg": "/volchenko_cv/static/media/personality-icon-black.869daa92d29a9f3f6b7640780dea4a39.svg",
     "static/media/moon-icon.svg": "/volchenko_cv/static/media/moon-icon.c410233389a1e4104d3b40fa2d89c648.svg",
     "index.html": "/volchenko_cv/index.html",
-    "main.e2d0f5d7.css.map": "/volchenko_cv/static/css/main.e2d0f5d7.css.map",
-    "main.8b12342b.js.map": "/volchenko_cv/static/js/main.8b12342b.js.map"
+    "main.ec5b745d.css.map": "/volchenko_cv/static/css/main.ec5b745d.css.map",
+    "main.eb458995.js.map": "/volchenko_cv/static/js/main.eb458995.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2d0f5d7.css",
-    "static/js/main.8b12342b.js"
+    "static/css/main.ec5b745d.css",
+    "static/js/main.eb458995.js"
   ]
 }
